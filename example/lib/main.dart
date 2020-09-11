@@ -66,16 +66,6 @@ class _MyAppState extends State<MyApp> {
                     color: Colors.blue,
                     highlightColor: Colors.blue[700],
                     colorBrightness: Brightness.dark,
-                    child: Text("onEvent(bool, {name:tome, age:180, male:true})"),
-                    shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
-                    onPressed: (){
-                      UmengSdk.onEvent('bool', {'name':'tome', 'age':180, 'male':false});
-                    }
-                ),
-                FlatButton(
-                    color: Colors.blue,
-                    highlightColor: Colors.blue[700],
-                    colorBrightness: Brightness.dark,
                     child: Text("onEvent(float, {name:jack, age:18, degree:1.6})"),
                     shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
                     onPressed: (){
@@ -130,16 +120,6 @@ class _MyAppState extends State<MyApp> {
                     shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
                     onPressed: (){
                       UmengSdk.onEvent('map_array', {'name':'jack', 'age':18, 'children':['tom', 'jerry'],'work':{'2000':'TC', '2005':'BAIDU', '2010':'ALI'}});
-                    }
-                ),
-                FlatButton(
-                    color: Colors.blue,
-                    highlightColor: Colors.blue[700],
-                    colorBrightness: Brightness.dark,
-                    child: Text("onEvent(统计时间, {time:1000, age:18, work:{2000:TC, 2005:BAIDU, 2010:ALI}, children:[tom, jerry]})"),
-                    shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
-                    onPressed: (){
-                      UmengSdk.onEvent('shijian', {'name':'jack', 'age':18, 'children':['tom', 'jerry'],'work':{'2000':'TC', '2005':'BAIDU', '2010':'ALI'}});
                     }
                 ),
                 FlatButton(
