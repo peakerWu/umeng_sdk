@@ -13,12 +13,12 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
 
-
+```
   umeng_sdk:
     git:
       url: https://github.com/peakerWu/umeng_sdk
       ref: master
-
+```
 
 
 [Android和iOS集成文档](https://developer.umeng.com/docs/119267/detail/174923)
