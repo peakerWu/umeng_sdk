@@ -1,14 +1,23 @@
-# umeng_sdk
 
-A new flutter plugin project.
+## 安装
 
-## Getting Started
+在工程 pubspec.yaml 中加入 dependencies
+```
+  umeng_sdk:
+    git:
+      url: https://github.com/peakerWu/umeng_sdk
+      ref: master
+```
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+[Android和iOS集成文档](https://developer.umeng.com/docs/119267/detail/174923)
+
+**Android的记得添加混淆文件，而且安卓的自定义事件需要添加参数。**
+
+
+**iOS 需要在podfile里面把framework注释掉**
+```
+target 'Runner' do
+  # use_frameworks!
+  # use_modular_headers!
+```
