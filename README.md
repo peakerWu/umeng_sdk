@@ -25,3 +25,10 @@ samples, guidance on mobile development, and a full API reference.
 
 
 [Android和iOS集成文档](https://developer.umeng.com/docs/119267/detail/174923)
+
+**iOS 需要在podfile里面把framework注释掉。**
+```
+target 'Runner' do
+  # use_frameworks!
+  # use_modular_headers!
+```
