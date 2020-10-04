@@ -1,4 +1,6 @@
 
+友盟统计SDK的安装，在官方文档下载的需要引入包，现在我放到git，通过在包里面引入使用
+
 ## 安装
 
 在工程 pubspec.yaml 中加入 dependencies
@@ -21,3 +23,5 @@ target 'Runner' do
   # use_frameworks!
   # use_modular_headers!
 ```
+
+有什么疑问可以联系我QQ：740971721
