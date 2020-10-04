@@ -20,11 +20,8 @@ A new flutter plugin project.
   s.dependency 'Flutter'
   s.dependency 'UMCCommon'
   s.dependency 'UMCAnalytics'
-  
-  s.static_framework = true
 
-  s.dependency 'Firebase'
-  s.dependency 'Firebase/Core'
+  s.static_framework = true
   # s.dependency 'UMCCommonLog'
 
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
